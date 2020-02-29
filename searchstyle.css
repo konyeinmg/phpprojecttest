@@ -1,73 +1,100 @@
-/* :: 2.0 Import All CSS */
-@import url(css/searchbootstrap.min.css);
-@import url(css/classy-nav.css);
-@import url(css/font-awesome.min.css);
-@import url(css/elegant-icon.css);
-/* :: 4.0 Header Area CSS */
-.header-area {
-  position: absolute;
+.section_padding {
+  padding: 50px 50px;
+}
+
+a:hover {
+  outline: none;
+  text-decoration: none;
+}
+
+a:focus,
+.button:focus,
+button:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.submit_btn {
+  width: auto;
+  display: inline-block;
+  background: #1158B2;
+  padding: 0px 50px;
+  color: #1158B2;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 50px;
+  border-radius: 5px;
+  outline: none !important;
+  box-shadow: none !important;
+  text-align: center;
+  border: 1px solid #1158B2;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.submit_btn:hover {
+  background: transparent;
+}
+
+.btn_1 {
+  display: inline-block;
+  padding: 17px 50px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #1158B2;
+  font-size: 15px;
+  font-weight: 500;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: capitalize;
+  color: #1158B2;
+}
+
+.btn_1:hover {
+  background-color: #018EFE;
+  color: #fff;
+}
+
+.subscribe_part {
+  background-color: #fff;
+}
+
+.subscribe_part .subscribe_part_content {
+  text-align: center;
+}
+
+.subscribe_part .subscribe_part_content h2 {
+  color: #1158B2;
+}
+
+.subscribe_part .subscribe_form {
+  margin: 0 auto;
+  margin-top: 45px;
+  position: relative;
+  max-width: 558px;
+}
+
+.subscribe_part .subscribe_form input {
+  border: 1px solid #1158B2;
   width: 100%;
-  z-index: 999;
-  top: 0;
-  left: 0;
-  background-color: transparent; }
-  .header-area .alazea-main-menu {
-    position: relative;
-    z-index: 1;
-    -webkit-transition-duration: 200ms;
-    transition-duration: 200ms; }
-   
-    .header-area .alazea-main-menu .search-form {
-      position: relative;
-      z-index: 1;
-      opacity: 0;
-      visibility: hidden;
-      -webkit-transition-duration: 500ms;
-      transition-duration: 500ms; }
-      .header-area .alazea-main-menu .search-form form {
-        -webkit-transition-duration: 500ms;
-        transition-duration: 500ms;
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: 100;
-        background-color: #ffffff;
-        width: 400px;
-        border-radius: 5px;
-        padding: 30px;
-        box-shadow: 0 3px 40px 0 rgba(0, 0, 0, 0.15); }
-        .header-area .alazea-main-menu .search-form form input {
-          width: 100%;
-          height: 45px;
-          border: 1px solid #ebebeb;
-          padding: 0 30px;
-          border-radius: 5px;
-          font-size: 14px; }
-      .header-area .alazea-main-menu .search-form .closeIcon {
-        -webkit-transition-duration: 500ms;
-        transition-duration: 500ms;
-        position: absolute;
-        top: 41px;
-        right: 60px;
-        z-index: 200;
-        cursor: pointer;
-        color: #707070; }
-        .header-area .alazea-main-menu .search-form .closeIcon:hover {
-          color: #70c745; }
-      .header-area .alazea-main-menu .search-form.active {
-        opacity: 1;
-        visibility: visible; }
- 
-  .header-area #searchIcon {
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-    color: #ffffff;
-    font-size: 20px;
-    cursor: pointer;
-    margin-left: 1000px; }
-    .header-area #searchIcon:hover, .header-area #searchIcon:focus {
-      color: #70c745; }
+  background-color: transparent;
+  color: #1158B2;
+  border-radius: 50px;
+  padding: 19px 30px;
+  line-height: 20px;
+}
 
-/* ======= The End ======= */
+.subscribe_part .subscribe_form .btn_1 {
+  padding: 15px 30px;
+  line-height: 16px;
+  border-radius: 50px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
 
-/*# sourceMappingURL=style.css.map */
